@@ -1,0 +1,140 @@
+
+
+
+
+:root{
+    --VeryDarkBlue: hsl(243, 87%, 12%);
+    --DesaturatedBlue: hsl(238, 22%, 44%);
+    --BrightBlue: hsl(224, 93%, 58%);
+    --BrightBlue1: hsl(224, 65%, 60%);
+    --ModerateCyan: hsl(170, 45%, 43%);
+    --LightGrayishBlue: hsl(240, 75%, 98%);
+    --LightGray: hsl(0, 0%, 75%);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--LightGrayishBlue);
+    
+
+}
+
+/* font-family: 'Raleway', sans-serif; */
+
+.nav-wrapper{
+    display: flex;
+    align-content: flex-end;
+    
+}
+
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.card img{
+    width: 100%;
+}
+
+
+
+.testimonial{
+    width: 360px;
+    font-size: 12px;
+    background-color: white;
+    background-image: url(./images/icon-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: top 20px left 20px;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.avatar-flex p:nth-child(1){
+    
+    font-weight: 700;
+}
+.avatar-flex{
+   
+    display: flex;
+    line-height: .3;
+    gap:10px;
+    
+}
+.avatar-flex img{
+    width: 40px;
+    border-radius: 50%;
+   
+
+}
+
+.card3{
+    
+    background-color: var(--DesaturatedBlue);
+    padding: 3rem;
+    color: white;
+    gap: 9rem;
+
+
+}
+.card3 h3{
+    font-size: 1.5em;
+   
+}
+.card3 p{
+    font-size: .9em;
+  
+}
+
+input{
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 60%;
+    padding: 10px 30px;
+    border: none;
+    
+}
+
+button{
+    background-color: var(--BrightBlue);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: var(--BrightBlue1);
+    
+   
+}
+
+
+.grid-f{
+    background-color: var(--VeryDarkBlue);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px 40px ;
+    gap: 5rem;
+
+}
+
+ul{
+    list-style: none;
+}
+li{
+    line-height: 2;
+    font-weight: 400;
+}
+
